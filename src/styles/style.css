@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+}
+
+.hero-section{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(48, 42, 42, 0.8), rgba(26, 23, 23, 0.8)), url("../images/hero-img.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+
+.nav-parent{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   /* background-color: rgb(48, 42, 42);*/
+   background: transparent;
+}
+
+.nav-logo{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-logo:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    color: rgb(99, 99, 228);
+    transform: rotate(15deg);
+}
+
+.nav-items{
+    background-color: rgb(26, 23, 23) !important;
+   
+}
+
+.nav-items ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-items ul li{
+
+    list-style: none;
+
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.nav-icons i{
+    color: white;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.nav-items ul li a:hover,.nav-icons i:hover{
+    cursor: pointer;
+    color: rgb(99, 99, 228);
+    transition: 0.5s all;
+}
+
+.nav-icons i:hover{
+    transform: rotate(15deg);
+}
+
+
+
+.hero-content{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.hero-text p,.hero-text h2{
+    margin: 12px;
+    color: white;
+}
+.hero-one{
+    font-size: 2rem;
+}
+.hero-two{
+    font-size: 1.8rem;
+    font-style: italic;
+}
+.hero-three{
+    font-size: 3.5rem;
+}
+
+.hero-btn{
+    margin-top: 50px;
+
+}
+
+.hero-btn a{
+    text-decoration: none;
+    padding: 20px;
+   
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    
+   
+}
+
+.hero-btn a:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    background: linear-gradient(rgba(48, 42, 42, 0.8),rgba(26, 23, 23, 0.8));  
+
+}
+
+.classes-section{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    margin : 3rem 0;
+}
+
+.classes-heading p{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(43, 59, 52);
+}
+
+.classes-heading h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+
+
+.classes-card-container{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.classes-card{
+    width: 20vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.classes-card-img{
+    
+    
+}
+
+.classes-card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.classes-card-text{
+    margin-top: 5px;
+    padding: 4px 2px;
+}
+
+.classes-card-btn{
+    margin-top: 20px;
+}
+
+.classes-card-btn a{
+
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.classes-card-btn a:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    background: linear-gradient(rgba(48, 42, 42, 0.8),rgba(26, 23, 23, 0.8));  
+
+}
+
+.about-section{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+}
+
+.about-parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.about-right{
+    
+    width: 30vw;
+    height: 50vw;
+}
+
+.about-left,.about-right{
+    margin: 15px;
+}
+
+.about-left img{
+
+    width: 40vw;
+    height: 50vh;
+
+}
+
+.features-section{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.features-parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.features-left{
+    /* width: 30vw; */
+}
+
+.features-right{
+    /* width: 30vw; */
+}
+
+.features-centre img{
+    width: 30vw;
+    height: 40vw;
+    margin: auto;
+}
+
+.features-box{
+    width: 20vw;
+    height: 10vw;
+    text-align: start;
+   
+}
+
+.features-box p{
+    padding-top: 10px;
+}
