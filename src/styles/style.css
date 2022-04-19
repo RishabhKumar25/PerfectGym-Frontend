@@ -275,3 +275,13 @@ body{
 .features-box p{
     padding-top: 10px;
 }
+
+.footer-parent{
+    margin-top: 15px;
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+}

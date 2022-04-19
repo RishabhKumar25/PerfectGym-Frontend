@@ -178,7 +178,6 @@
           <img src="../src/images/features-img.png" alt="Features" />
         </div>
 
-
         <div class="features-right">
           <div class="features-box">
             <h3>STRENGTH EQUIPMENT</h3>
@@ -204,8 +203,6 @@
             </p>
           </div>
         </div>
-
-
       </div>
     </section>
 
@@ -213,9 +210,23 @@
       <div class="footer-parent">
         <div class="footer-social">
           <h2>PerfectGym</h2>
-
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
         </div>
-        <div class="footer-contact"></div>
+
+        <div class="footer-calander">
+          <p id="calander"></p>
+
+         
+        </div>
+
+        <div class="footer-contact">
+          <form action="">
+            Enter your name <br />
+            <input type="text" name="username" />
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -223,5 +234,17 @@
       src="https://kit.fontawesome.com/0d82ab6586.js"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+    
+    window.onload = displayClock();
+function displayClock(){
+  var display = new Date().toLocaleTimeString();
+  document.getElementById("calander").innerHTML = display;
+ 
+  setTimeout(displayClock, 1000); 
+}
+     
+    </script>
   </body>
 </html>
